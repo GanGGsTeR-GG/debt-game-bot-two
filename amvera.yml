@@ -1,0 +1,9 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+run:
+  scriptFile: code/bot.py
+  scriptName: bot
+build:
+  requirementsPath: code/requirements.txt
